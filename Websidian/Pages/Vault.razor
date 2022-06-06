@@ -1,0 +1,43 @@
+﻿@page "/vault"
+@attribute [Authorize]
+
+<PageTitle>Vault</PageTitle>
+
+@using Websidian.Data
+@inject VaultService VaultService
+
+<h1>Vault</h1>
+
+<p>The list of files.</p>
+
+@if (vaultFiles == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var file in vaultFiles)
+            {
+                <tr>
+                    <td>@file.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private VaultFile[]? vaultFiles;
+
+    protected override async Task OnInitializedAsync()
+    {
+        vaultFiles = await VaultService.GetFilesAsync();
+    }
+}

@@ -1,0 +1,108 @@
+{
+  "main": {
+    "id": "11fe61c25fc4fc5e",
+    "type": "split",
+    "children": [
+      {
+        "id": "b6c27e5fcdbae4ac",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Start.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c7817a0a69b4e0bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "e3dd3ff2884a4b6c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1a24e74af953ff03",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "7eb95e287731dfdf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b373959ab11a92fa",
+    "type": "split",
+    "children": [
+      {
+        "id": "de25ba0a7b4f6fc9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7c0c80f4dbda7ee9",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "64818f34d4962232",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d41a0eb398a8b07a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Start.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "b6c27e5fcdbae4ac",
+  "lastOpenFiles": [
+    "Start.md",
+    "Folder 1/Folder 1 Note.md"
+  ]
+}
